@@ -4,10 +4,7 @@ public class main{
     public static void main(String[] args){
         main obj = new main();
         System.out.println(obj.isOneToOne(args[0], args[1]));
-
-
     }
-
 
     public boolean isOneToOne(String first, String second){
         HashMap<Character,Character> one = new HashMap<>();
@@ -32,7 +29,6 @@ public class main{
 
             one.put(char1, char2);
             two.put(char2, char1);
-
         }
 
     }
